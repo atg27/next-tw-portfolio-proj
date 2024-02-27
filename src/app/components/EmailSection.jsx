@@ -28,6 +28,7 @@ const EmailSection = () => {
 
     const response = await fetch(endpoint, options);
     const resData = await response.json();
+    console.log(resData);
 
     if (response.status === 200) {
       console.log("Message sent successfully!");
@@ -119,6 +120,11 @@ const EmailSection = () => {
           >
             Send Message
           </button>
+          {emailSubmitted && (
+            <p className="text-green-500 text-sm mt-2">
+              Message sent successfully!
+            </p>
+          )}
         </form>
       </div>
     </section>
