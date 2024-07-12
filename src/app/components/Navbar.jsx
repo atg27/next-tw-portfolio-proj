@@ -10,10 +10,10 @@ const navLinks = [
     title: "About",
     path: "#about",
   },
-  {
-    title: "Projects",
-    path: "#projects",
-  },
+  // {
+  //   title: "Projects",
+  //   path: "#projects",
+  // },
   {
     title: "Contact",
     path: "#contact",
@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          AG
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

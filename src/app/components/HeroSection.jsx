@@ -23,12 +23,12 @@ const HeroSection = () => {
               sequence={[
                 "Andrew Garrison",
                 1000,
-                "a Web Developer",
-                1000,
-                "a Backend Developer",
-                1000,
-                "Certified in Dev Ops",
-                1000,
+                "a FullStack Engineer",
+                2000,
+                "a Healthcare Worker",
+                2000,
+                "an Outdoorsman",
+                2000,
               ]}
               wrapper="span"
               speed={50}
@@ -36,17 +36,28 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:te xt-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-            adipisci.
+            Thank you for visiting my website. Please read more about me below
+            and feel free to reach out if you have any questions or would like
+            to connect!
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-              Hire me
+              <a
+                href="https://www.linkedin.com/in/andrewtgarrison"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Hire me</span>
+              </a>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500  hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <a
+                href="/cv/Andrew Garrison Resume '24.pdf"
+                download="Andrew Garrison Resume '24.pdf"
+                className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"
+              >
+                <span>Download CV</span>
+              </a>
             </button>
           </div>
         </motion.div>
@@ -58,7 +69,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative">
             <Image
-              src="/images/casspassprofile.png"
+              src="/images/headshot.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

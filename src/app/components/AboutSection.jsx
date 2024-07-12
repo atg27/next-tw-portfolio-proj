@@ -9,12 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>PostgreSQL</li>
         <li>JavaScript</li>
-        <li>Java</li>
-        <li>React</li>
-        <li>Next.js</li>
+        <li>TypeScript</li>
+        <li>SQL</li>
+        <li>Node.Js</li>
+        <li>Next.Js</li>
         <li>Tailwind.css</li>
+        <li>Kafka</li>
+        <li>Github</li>
+        <li>Jira</li>
       </ul>
     ),
   },
@@ -34,8 +37,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Full Stack Engineer, SS&C</li>
-        <li>AWS Cloud Practitioner</li>
-        <li>AWS Certified Dev Ops Engineer</li>
+        <li>OR, ICU and Emergency Department</li>
+        <li>
+          High-volume, high-stakes environments, working with multidisciplanary
+          teams
+        </li>
       </ul>
     ),
   },
@@ -67,20 +73,24 @@ const AboutSection = () => {
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
             <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
             <p className="text-base lg:text-lg">
-              I am an experienced Full Stack Developer with expertise in both
-              frontend and backend technologies. My skill set includes
-              proficiency in Java, Node.js, SQL, HTML, CSS, JavaScript, React,
-              Redux, Next.js, and Tailwind. Previously, I was a valuable member
-              of a Database Platform team, where I contributed to building and
-              developing user interfaces for my team and the company as a whole.
-              My professional background also includes 5 years of experience in
-              the healthcare industry, where I excelled in high-volume,
-              high-stakes environments. My motivation stems from a deep passion
-              for helping others, which drives me to continuously learn and
-              explore new technologies. I am dedicated to developing innovative
-              projects and solving complex problems, with a strong desire to
-              push the boundaries of what can be accomplished in the field of
-              technology.
+              I am a passionate and detail-oriented Full Stack Software Engineer
+              with experience in Frontend, Backend, and DevOps technologies.
+              Skilled in agile methodologies and experienced in collaborating
+              with cross-functional teams to deliver robust and high-quality
+              software solutions. I have professional experience working on a
+              data platform team, where I developed UIs to manage microservices,
+              enhancing operational efficiency and usability while also helping
+              manage data infrastructure. Additionally, I have over 5 years of
+              experience in healthcare, working in high-volume, high-stakes
+              environments. My passion for helping others drives me to learn and
+              develop new technology. I am dedicated to leveraging my technical
+              expertise and interpersonal skills to create innovative and
+              effective solutions.
+              <br></br>I enjoy working on personal projects outside of work as
+              well as recreating outdoors in the Pacific Northwest, studying
+              Japanese and playing chess. I am an avid fly fisherman,
+              backpacker, runner, swimmer and climber. I am always seeking new
+              adventures and challenges that foster personal growth.
             </p>
             <div className="flex flex-row mt-8">
               <TabButton
